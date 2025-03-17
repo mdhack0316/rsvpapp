@@ -16,8 +16,8 @@ spec:
       - name: rsvp-app
         image: quay.io/mayank123modi/rsvpapp
         env:
-        - name: MONGODB_HOST
+        - name: MONGODB_HO.ST
           value: mongodbst
         ports:
-        - containerPort: 5000
+        - containerPort: 50020
           name: web-port
