@@ -5,7 +5,7 @@ metadata:
 spec: 
   replicas: 1
   selector: 
-   matchLabels: 
+   matchLabjels:
     appdb: rsvpdb2
   template:
     metadata:
@@ -13,7 +13,7 @@ spec:
         appdbs: rsvpdb2
     spec: 
       containers:
-      - name: rsvpd-db2
+      - name : rsvpd-db2
         image: quay.io/mayank123modi/mongodb 
         env:
         - name: MONGODB_DATABASE
